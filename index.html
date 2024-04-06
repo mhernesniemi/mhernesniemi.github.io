@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Personal blog" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>mhernesniemi at github</title>
+    <title>Headless CMS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌎</text></svg>"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Rubik:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -18,160 +22,188 @@
     />
   </head>
   <body
-    class="bg-stone-950 text-stone-200 text-xl my-20 leading-relaxed tracking-normal px-5 lg:px-0"
+    class="px-5 text-xl tracking-normal leading-relaxed bg-stone-950 text-stone-200 lg:px-0"
     style="font-family: 'Nanum Myeongjo', serif"
   >
-    <div class="container mx-auto lg:max-w-[705px]">
+    <!-- <div class="m-10">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-8 h-8"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3"
+        />
+      </svg>
+    </div> -->
+    <div class="container mx-auto lg:max-w-[705px] my-20">
       <h1
-        class="text-5xl font-bold mb-10 leading-tight"
+        class="mb-10 text-5xl font-bold leading-tight"
         style="font-family: 'Rubik', sans-serif"
       >
-        Choosing Headless CMS
+        <!-- Choosing Headless CMS -->
+        Personal Space
       </h1>
-      <p class="mb-10 text-2xl">
-        Constitution states that freedom begins with our capacity to share and
-        access Burying suicide marvelous revaluation dead aversion free
-        sexuality victorious love strong. Sexuality convictions grandeur
-        deceptions oneself of battle.
-      </p>
-      <p
+      <!-- <p class="mb-10 text-2xl">
+        Past years there's been emerge of many new API-first content management
+        systems, challenging the monolitic CMS veterans. This article will take
+        a closer look into the most promising ones like Strapi and Sanity and
+        comparing them to headless version of tradiotional Drupal and the
+        headless pioneer Contentful.
+      </p> -->
+      <!-- <p
         class="mb-5 first-letter:float-left first-letter:text-6xl first-letter:pr-3"
-      >
-        Constitution states that freedom begins with our capacity to share and
-        access I believe such an approach is profoundly misguided, and contrary
-        to what Prejudice snare dead law reason snare free of will ubermensch
-        christianity spirit derive right. Christian madness reason god reason
-        spirit of madness good law decrepit transvaluation. Oneself superiority
-        law decrepit faithful insofar depths fearful. Contradict justice
-        marvelous passion virtues insofar fearful reason god insofar. Salvation
-        deceptions philosophy ultimate insofar philosophy ubermensch faithful.
+      ></p> -->
+      <!-- <p class="mb-5">
+        <span
+          class="text-base font-semibold uppercase"
+          style="font-family: 'Rubik', sans-serif"
+          >The frontend</span
+        >
+        will be built in this case using Next.js. That in mind we won't be
+        interested too much of things like API call limitations or CDN
+        performance as the site will use static site generation and requests
+        will happen only on build.
       </p>
-      <div class="lg:-mx-40 my-16">
+      <p class="mb-5">Basic tier features:</p>
+      <div class="mt-10 mb-16 lg:-mx-40">
         <table
-          class="w-full text-center text-base"
+          class="w-full text-base text-center"
           style="font-family: 'Rubik', sans-serif"
         >
           <thead>
-            <tr class="border-b-2 border-stone-800">
+            <tr class="border-b-2 border-zinc-700">
               <th class="p-8"></th>
               <th>
                 <img
                   src="images/drupal.png"
                   alt="Drupal"
-                  class="w-28 inline-block"
+                  class="inline-block w-28"
                 />
               </th>
               <th>
                 <img
                   src="images/strapi.svg"
                   alt="Strapi"
-                  class="w-28 inline-block"
+                  class="inline-block w-28"
                 />
               </th>
               <th>
                 <img
                   src="images/sanity.svg"
                   alt="Sanity"
-                  class="w-28 inline-block"
+                  class="inline-block w-28"
                 />
               </th>
               <th>
                 <img
                   src="images/contentful.svg"
                   alt="Contentful"
-                  class="w-28 inline-block"
+                  class="inline-block w-28"
                 />
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th class="font-normal p-3 text-left">Open source</th>
+              <th class="p-3 font-normal text-left">Open source</th>
               <td>
                 <img
                   src="images/check.svg"
                   alt="checked"
-                  class="w-6 h-6 inline-block"
+                  class="inline-block w-6 h-6"
                 />
               </td>
               <td>
                 <img
                   src="images/check.svg"
                   alt="checked"
-                  class="w-6 h-6 inline-block"
+                  class="inline-block w-6 h-6"
                 />
               </td>
               <td>-</td>
               <td>-</td>
             </tr>
-            <tr class="border-y border-stone-800">
-              <th class="font-normal p-3 text-left">Self-hosted or cloud</th>
+            <tr class="border-y border-zinc-700">
+              <th class="p-3 font-normal text-left">Self-hosted or cloud</th>
               <td>Self-hosted</td>
               <td>Both</td>
               <td>Cloud</td>
               <td>Cloud</td>
             </tr>
             <tr>
-              <th class="font-normal p-3 text-left">Price</th>
+              <th class="p-3 font-normal text-left">Price per month</th>
               <td>-</td>
               <td>$99 (cloud)</td>
               <td>$99</td>
               <td>$300</td>
             </tr>
-            <tr class="border-y border-stone-800">
-              <th class="font-normal p-3 text-left">Users</th>
+            <tr class="border-y border-zinc-700">
+              <th class="p-3 font-normal text-left">Users</th>
               <td>Unlimited</td>
               <td>Unlimited or 10 (cloud)</td>
               <td>10</td>
               <td>20</td>
             </tr>
             <tr>
-              <th class="font-normal p-3 text-left">User roles</th>
+              <th class="p-3 font-normal text-left">User roles</th>
               <td>Unlimited</td>
               <td>Unlimited</td>
               <td>4</td>
               <td>4</td>
             </tr>
-            <tr class="border-y border-stone-800">
-              <th class="font-normal p-3 text-left">Configuration via Git</th>
+            <tr class="border-y border-zinc-700">
+              <th class="p-3 font-normal text-left">Entries</th>
+              <td>Unlimited</td>
+              <td>Unlimited or 100k (cloud)</td>
+              <td>10</td>
+              <td>50k</td>
+            </tr>
+            <tr class="border-y border-zinc-700">
+              <th class="p-3 font-normal text-left">Configuration via Git</th>
               <td>
                 <img
                   src="images/check.svg"
                   alt="checked"
-                  class="w-6 h-6 inline-block"
+                  class="inline-block w-6 h-6"
                 />
               </td>
               <td>
                 <img
                   src="images/check.svg"
                   alt="checked"
-                  class="w-6 h-6 inline-block"
+                  class="inline-block w-6 h-6"
                 />
               </td>
               <td>
                 <img
                   src="images/check.svg"
                   alt="checked"
-                  class="w-6 h-6 inline-block"
+                  class="inline-block w-6 h-6"
                 />
               </td>
               <td>-</td>
             </tr>
             <tr>
-              <th class="font-normal p-3 text-left">CI</th>
+              <th class="p-3 font-normal text-left">CI</th>
               <td>-</td>
               <td>
                 <img
                   src="images/check.svg"
                   alt="checked"
-                  class="w-6 h-6 inline-block"
+                  class="inline-block w-6 h-6"
                 />
               </td>
               <td>
                 <img
                   src="images/check.svg"
                   alt="checked"
-                  class="w-6 h-6 inline-block"
+                  class="inline-block w-6 h-6"
                 />
               </td>
               <td>-</td>
@@ -183,12 +215,24 @@
         </table>
       </div>
       <h2
-        class="mb-5 mt-10 text-2xl font-medium"
+        class="mt-10 mb-5 text-2xl font-medium text-zinc-100"
         style="font-family: 'Rubik', sans-serif"
       >
-        Sub Title Longword Coming
+        Sanity
       </h2>
-      <pre><code class="language-css text-base">p { color: red }</code></pre>
+      <pre><code class="text-base language-js">// schemas/pet.js
+export default {
+  name: 'pet',
+  type: 'document',
+  title: 'Pet',
+  fields: [
+    {
+      name: 'name',
+      type: 'string',
+      title: 'Name'
+    }
+  ]
+}</code></pre>
       <p class="mb-5">
         Constitution states that freedom begins with our capacity to share and
         access I believe such an approach is profoundly misguided, and contrary
@@ -215,6 +259,7 @@
         battle depths philosophy. Justice value.
       </p>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script> -->
   </body>
 </html>
